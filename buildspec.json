@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "obs-studio": {
+      "version": "31.0.0",
+      "repository": "https://github.com/obsproject/obs-studio.git",
+      "branch": "31.0.0",
+      "hash": "v31.0.0"
+    },
+    "prebuilt": {
+      "version": "2024-10-02",
+      "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+      "label": "OBS Deps",
+      "hashes": {
+        "macos-universal": "",
+        "windows-x64": "",
+        "linux-x86_64": ""
+      }
+    },
+    "qt6": {
+      "version": "6.8.1",
+      "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+      "label": "Qt6",
+      "hashes": {
+        "macos-universal": "",
+        "windows-x64": "",
+        "linux-x86_64": ""
+      }
+    }
+  },
+  "name": "obs-tiktool-captions",
+  "version": "1.0.0",
+  "author": "TikTool",
+  "website": "https://tik.tools/captions",
+  "email": "support@tik.tools",
+  "uuids": {
+    "macosPackage": "tools.tik.captions.pkg",
+    "macosInstaller": "tools.tik.captions.installer",
+    "macosApp": "tools.tik.captions.app"
+  }
+}
