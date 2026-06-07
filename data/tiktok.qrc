@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/tiktok">
+    <file alias="style.qss">style.qss</file>
+    <file alias="tiktok-live-studio-setup.png">images/tiktok-live-studio-setup.png</file>
+  </qresource>
+</RCC>
